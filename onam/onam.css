@@ -456,11 +456,11 @@
         backdrop-filter: blur(3px);
         background: rgba(255, 255, 255, 0.263);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        position: absolute;
+        position: relative;
         left: 350px;
-        bottom: 300px;
+        top:200px;
         width: 720px;
-        height: 390px;
+        height: 405px;
         border-radius: 10px;
     }
 
@@ -473,7 +473,7 @@
         font-weight: bold;
         position: absolute;
         top: 920px;
-        right: 600px;
+        right: 670px;
     }
 
     #insta {
@@ -490,7 +490,7 @@
             "ELSH" 2;
         position: absolute;
         top: 1003px;
-        right: 605px;
+        right: 685px;
     }
 
     #insta :hover {
@@ -502,7 +502,7 @@
         height: 25px;
         width: 25px;
         top: 1005px;
-        right: 770px;
+        right: 845px;
     }
 }
 
