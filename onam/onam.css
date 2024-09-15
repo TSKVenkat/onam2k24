@@ -94,6 +94,13 @@
     top: 808px;
 }
 
+@media screen and (min-width: 320px) {
+    body{
+        color: #ffd700;
+    }
+    
+}
+
 /*svg{
     position: absolute;
     right: 500px;
