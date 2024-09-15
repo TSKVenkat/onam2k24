@@ -97,7 +97,7 @@
 }
 
 @media screen and (min-width: 320px) {
-    #body {
+    body {
         background-image: url("https://i.pinimg.com/originals/44/61/a6/4461a623d57bbebdce6729d66c6763e3.jpg");
         background-size: cover;
         background-position: center;
