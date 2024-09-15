@@ -354,10 +354,10 @@
         background: rgba(255, 255, 255, 0.263);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         position: relative;
-        left: 300px;
-        top: 500px;
+        left: 350px;
+        top:200px;
         width: 720px;
-        height: 390px;
+        height: 405px;
         border-radius: 10px;
     }
 
@@ -366,11 +366,11 @@
         text-align: center;
         color: whitesmoke;
         font-family: "DM Sans", sans-serif;
-        font-size: 26px;
+        font-size: 32px;
         font-weight: bold;
         position: absolute;
-        top: 850px;
-        right: 380px;
+        top: 920px;
+        right: 670px;
     }
 
     #insta {
@@ -381,13 +381,13 @@
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
-        font-size: 18px;
+        font-size: 22px;
         font-variation-settings:
             "ELGR" 1,
             "ELSH" 2;
         position: absolute;
-        top: 920px;
-        right: 390px;
+        top: 1003px;
+        right: 685px;
     }
 
     #insta :hover {
@@ -396,10 +396,10 @@
 
     #insta_icon {
         position: absolute;
-        height: 23px;
-        width: 23px;
-        top: 920px;
-        right: 525px;
+        height: 25px;
+        width: 25px;
+        top: 1005px;
+        right: 845px;
     }
 }
 
