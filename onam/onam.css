@@ -1,0 +1,299 @@
+#happy {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    /* font-family: "Playfair Display", serif; */
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    position: relative;
+    top: 15px;
+    color: #ffd700;
+}
+
+#body {
+    background-image: url("https://i.pinimg.com/originals/44/61/a6/4461a623d57bbebdce6729d66c6763e3.jpg");
+    /*background-image: url("C:\\Users\\mohana\\Desktop\\HTML coding\\mini projects\\Onam.jpg");*/
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 700px;
+}
+
+
+#onam {
+    font-family: "Hurricane", cursive;
+    /*font-family: "Poppins", cursive;*/
+    position: relative;
+    right: 50px;
+    bottom: 240px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    transition: transform .2s; /* Animation */
+}
+
+#onam:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  }
+
+.wish {
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.263);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    left: 390px;
+    bottom: 140px;
+    width: 720px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+
+.dev {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 750px;
+    right: 690px;
+}
+
+#insta {
+    text-align: center;
+    color: #ffb300;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18;
+    font-variation-settings:
+        "ELGR" 1,
+        "ELSH" 2;
+    position: absolute;
+    top: 805px;
+    right: 685px;
+    bottom: 20px;
+}
+
+#insta :hover {
+    color: #f4f3f0;
+}
+
+#insta_icon{
+    position:absolute;
+    bottom: 0px;
+    left: 690px;
+    top: 808px;
+}
+
+/*svg{
+    position: absolute;
+    right: 500px;
+    top: 250px
+}*/
+
+
+/*
+html {
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    bottom: 20px;
+    left: 25px;
+    width: 720;
+    height: 405;
+    margin: 0 auto;
+    background-color: orangered;
+    box-shadow: white 10px 10px;
+}
+
+.fl{
+    display: flex;
+}
+
+.main1{
+    position: relative;
+    left:40px;
+    width: 360px;
+    height: 100px;
+    background-color: white;
+    box-shadow: #ffd700 10px 10px;
+}
+
+.main2{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    margin: 0 auto;
+    padding: 0 8px;
+    width: 360px;
+    height: 100px;
+    background-color: orangered;
+    box-shadow: #ffd700 10px 10px;
+}
+
+.main3{
+    position: relative;
+    right: 50px;
+    margin: 0 auto;
+    padding: 0 8px;
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    box-shadow: #ffd700 10px 10px;
+}
+
+.main4{
+    position: relative;
+    bottom: 40px;
+    width: 360px;
+    height: 100px;
+    background-color: white;
+    box-shadow: orangered 10px 10px;
+}
+
+.main5{
+    position: absolute;
+    left:30px;
+    bottom: 210px;
+    margin-top:100px;
+    width: 360px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: orangered 10px 10px;
+}
+.main6{
+    position: relative;
+    bottom: 60px;
+    right: 550px;
+    width: 360px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ffd700;
+    box-shadow: #ffffff 10px 10px;
+}
+
+.main8{
+    position: relative;
+    top:10px;
+    bottom:20px;
+    width: 320px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(21, 20, 20, 0.911);
+    box-shadow: orangered 10px 10px;
+}
+
+.main7{
+    position: absolute;
+    right:15px;
+    bottom:50px;
+    width: 320px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(157, 94, 94);
+    box-shadow: orangered 10px 10px;
+}
+
+.main9{
+    position: absolute;
+    right: 20px;
+    bottom:240px;
+    width: 320px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(157, 94, 94);
+    box-shadow: orangered 10px 10px;
+}
+
+
+.t1 {
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 10px;
+    font-size: 150;
+    color: whitesmoke;
+}
+
+.t5 {
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 10px;
+    font-size: 70;
+    color: #ffd700;
+}
+
+
+.t4 {
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 10px;
+    font-size: 65;
+    color: rgb(0, 0, 0);
+}
+
+.t3 {
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 10px;
+    font-size: 70;
+    color: rgb(0, 0, 0);
+}
+
+.t2 {
+    text-align: left;
+    font-family: "pixelify sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 250;
+    margin-top: -70px;
+    color: #ffd700;
+}
+
+.t6 {
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80;
+    color: #ffd700;
+}
+
+.t7 {
+    text-align: left;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80;
+    color: #ffd700;
+}
+
+.mid{
+    display: flex;
+}*/
